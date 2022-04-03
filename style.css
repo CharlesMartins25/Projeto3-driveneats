@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap');
+body {
+background-color: #fafafa;
+
+}
+div h1 { font-size: 44px;
+    font-family: 'Righteous';
+  align-items: center;
+    
+    
+}
+div h2{
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin-top: 5px;
+}
+.topo {
+    background-color: #CF2B2B;;
+    color: white;
+    padding: 18px;
+    
+   
+}
