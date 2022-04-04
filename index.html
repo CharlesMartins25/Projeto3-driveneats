@@ -24,11 +24,12 @@
         <img src="https://cdn.panelinha.com.br/receita/1639082739484-frango.jpg">
      <h4>Frango Yin Yang</h4>
     <p>Um pouco de batata, um pouco de salada</p>
+    
     <div class="preco">
     <h5><strong>R$ 14,90</strong></h5> 
+    <img id="iconcomida" src="imagens/simbolo.svg">
 </div> 
-    
-    
+
   
 
 </div>
@@ -38,6 +39,7 @@
 <p>Um pouco de batata, um pouco de salada</p>
 <div class="preco">
 <h5><strong>R$ 14,90</strong></h5> 
+<img id="iconcomida2" src="imagens/simbolo.svg" >
 </div> 
 
 
@@ -50,6 +52,7 @@
 <p>Um pouco de batata, um pouco de salada</p>
 <div class="preco">
 <h5><strong>R$ 14,90</strong></h5> 
+<img id="iconcomida3" src="imagens/simbolo.svg">
 </div> 
 
 
@@ -69,6 +72,7 @@
     <p>Lata 350ml</p>
     <div class="preco">
     <h5><strong>R$4,90</strong></h5> 
+    <img id="iconbebida1" src="imagens/simbolo.svg">
 </div> 
     
     
@@ -81,6 +85,7 @@
     <p>Lata 350ml</p>
     <div class="preco">
     <h5><strong>R$4,90</strong></h5> 
+    <img id="iconbebida2" src="imagens/simbolo.svg" >
 </div> 
     
     
@@ -93,6 +98,7 @@
 <p>Lata 350ml</p>
 <div class="preco">
 <h5><strong>R$4,90</strong></h5> 
+<img id="iconbebida3" src="imagens/simbolo.svg" >
 </div> 
 
 
@@ -102,6 +108,7 @@
 </div>
 <div class="sobremesa">
     <h5>Por fim, sua sobremesa</h5>
+    
 </div>
 
 <div class="conteudosobremesa">
@@ -111,6 +118,7 @@
         <p>Apenas pudim</p>
         <div class="preco">
         <h5><strong>R$7,90</strong></h5> 
+        <img id="iconsobremesa" src="imagens/simbolo.svg">
     </div> 
         
         
@@ -123,6 +131,7 @@
     <p>Apenas pudim</p>
     <div class="preco">
     <h5><strong>R$7,90</strong></h5> 
+    <img id="iconsobremesa2" src="imagens/simbolo.svg" >
 </div> 
     
     
@@ -135,6 +144,7 @@
 <p>Apenas pudim</p>
 <div class="preco">
 <h5><strong>R$7,90</strong></h5> 
+<img id="iconsobremesa3" src="imagens/simbolo.svg">
 </div> 
 
 
@@ -143,16 +153,21 @@
 </div>
 </div>
 <div class="barrafinal">
-    <div class="pedido">
-        <div class="text">
-        <h5>Selecione os 3 itens </h5>
-        
-        </div>
-        <div class="text2">
-            <h5>para fechar o pedido</h5>
-        </div>
+    
+    <div class="pedido">    
+        <div id="sempedido" class="text">
+            <h5>Selecione os 3 itens para fechar o pedido</h5>
+            
     </div>
+        
+        <div id="pedidopronto" class="finalizar" onclick="encaminhar()">
+            <div class="text2">
+            <h5>Finalizar Pedido</h5>
+        </div>
+        </div>
 </div>
+</div>
+    </div>
 <script src="scripts.js"></script>
     
 </body>

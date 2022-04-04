@@ -4,13 +4,29 @@ background-color: #fafafa;
 
 }
 .conteudos {
+    
     display: flex;
+    overflow: scroll;
+    height: 230px;
+
+
+   
+}
+.conteudos:hover{
+    background-color: rgb(243, 243, 243);
+    transition: 500ms;
 }
 .conteudobebida{
     display: flex;
+    overflow: scroll;
+    height: 250px;
+    margin-top: -30px;
 }
 .conteudosobremesa{
     display: flex;
+    overflow: scroll;
+    
+ 
 }
 div h1 { font-size: 44px;
     font-family: 'Righteous';
@@ -31,6 +47,7 @@ div h3 {
     margin-top: 120px;
     margin-left: 19px;
     color: #333333;
+    margin-bottom: 10px;
    
 }
 div h4{
@@ -83,9 +100,9 @@ div p {
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
     margin-left: 19px;
-    margin-top: -10px;
+    margin-top: -1px;
     border: 5px solid white;
-
+   
 }
 .frango img {
     width: 144px;
@@ -106,7 +123,7 @@ div p {
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
     margin-left: 19px;
-    margin-top: -17px;
+    margin-top: 10px;
     border: 5px solid white;
      
 
@@ -131,9 +148,10 @@ div p {
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
     margin-left: 19px;
-    margin-top: -17px;
-    margin-bottom: 108px;
+    margin-top: 0px;
+    margin-bottom: 110px;
     border: 5px solid white;
+ 
     
 
 }
@@ -205,6 +223,35 @@ div p {
     margin-top: 27px;
     margin-left: 19px;
     color: #333333;
+    margin-bottom: -10px;
    
 }
+.preco img{
+    display: none;
+    width: 15.44px;
+    height: 15.44px;
+    margin-left: 150px;
+    margin-top: -30px;
+   
+}
+.finalizar{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Roboto';
+    width: 364px;
+    height: 61px;
+    margin-left: 25px;
+    margin-bottom: 16px;
+    background-color: #CBCBCB;
+    border-radius: 50px;
+    margin: auto;
+    background-color: green;
+    text-align: center;
+    display:none;
+
+}
+.text2 {
+    margin-top: -5px;
+}
+
 
